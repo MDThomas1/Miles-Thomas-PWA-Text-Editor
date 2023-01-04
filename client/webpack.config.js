@@ -17,7 +17,7 @@ module.exports = () => {
     plugins: [
       new HtmlWebpackPlugin({
         template: './index.html',
-        title: 'Text Editor'
+        title: 'J.A.T.E.'
       }),
      
       new InjectManifest({
@@ -28,8 +28,8 @@ module.exports = () => {
       new WebpackPwaManifest({
         fingerprints: false,
         inject: true,
-        name: 'JATE Text Editor',
-        short_name: 'JATE',
+        name: 'Just Another Text Editor',
+        short_name: 'J.A.T.E.',
         description: 'A useful piece of text editing software',
         start_url: './',
         publicPath: './',
@@ -61,7 +61,6 @@ module.exports = () => {
             },
           },
         },
-
       ],
     },
   };
