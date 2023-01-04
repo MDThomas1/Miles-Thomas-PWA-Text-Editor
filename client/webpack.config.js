@@ -28,8 +28,8 @@ module.exports = () => {
       new WebpackPwaManifest({
         fingerprints: false,
         inject: true,
-        name: 'Text Editor',
-        short_name: 'Text Edit',
+        name: 'JATE Text Editor',
+        short_name: 'JATE',
         description: 'A useful piece of text editing software',
         start_url: './',
         publicPath: './',
